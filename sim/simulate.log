@@ -1,0 +1,22 @@
+Time resolution is 1 ps
+Sample 00 | t=2435 ns | PC=0x1d | Timer cnt=11 | ADC=198 | EXP=198 | OK
+Sample 01 | t=4425 ns | PC=0x1d | Timer cnt=11 | ADC=233 | EXP=233 | OK
+Sample 02 | t=6475 ns | PC=0x1d | Timer cnt=13 | ADC=228 | EXP=228 | OK
+Sample 03 | t=8465 ns | PC=0x1d | Timer cnt=13 | ADC=184 | EXP=184 | OK
+Sample 04 | t=10455 ns | PC=0x1d | Timer cnt=12 | ADC=119 | EXP=119 | OK
+Sample 05 | t=12445 ns | PC=0x1d | Timer cnt=12 | ADC=057 | EXP=057 | OK
+Sample 06 | t=14435 ns | PC=0x1d | Timer cnt=11 | ADC=022 | EXP=022 | OK
+Sample 07 | t=16425 ns | PC=0x1d | Timer cnt=11 | ADC=027 | EXP=027 | OK
+Sample 08 | t=18475 ns | PC=0x1d | Timer cnt=13 | ADC=071 | EXP=071 | OK
+Sample 09 | t=20465 ns | PC=0x1d | Timer cnt=13 | ADC=136 | EXP=136 | OK
+Sample 10 | t=22455 ns | PC=0x1d | Timer cnt=12 | ADC=198 | EXP=198 | OK
+Sample 11 | t=24445 ns | PC=0x1d | Timer cnt=12 | ADC=233 | EXP=233 | OK
+Sample 12 | t=26435 ns | PC=0x1d | Timer cnt=11 | ADC=228 | EXP=228 | OK
+Sample 13 | t=28425 ns | PC=0x1d | Timer cnt=11 | ADC=184 | EXP=184 | OK
+Sample 14 | t=30475 ns | PC=0x1d | Timer cnt=13 | ADC=119 | EXP=119 | OK
+Sample 15 | t=32465 ns | PC=0x1d | Timer cnt=13 | ADC=057 | EXP=057 | OK
+------------------------------------------------------------
+Program halted at cycle 3252, instructions completed: 1677
+*** ALL TESTS PASSED ***
+------------------------------------------------------------
+$finish called at time : 32545 ns : File "C:/Users/User/Downloads/timer_adc_risc8/tb/tb_risc8_soc.v" Line 138

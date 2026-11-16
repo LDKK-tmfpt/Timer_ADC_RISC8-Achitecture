@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_risc8_soc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_risc8_soc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="369.601 ns"></ZoomEndTime>
+      <Cursor1Time time="2,351.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="160"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tb_risc8_soc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/halted" type="logic">
+      <obj_property name="ElementShortName">halted</obj_property>
+      <obj_property name="ObjectShortName">halted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/flags_out" type="array">
+      <obj_property name="ElementShortName">flags_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_out[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/instr_done" type="logic">
+      <obj_property name="ElementShortName">instr_done</obj_property>
+      <obj_property name="ObjectShortName">instr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/adc_sample" type="logic">
+      <obj_property name="ElementShortName">adc_sample</obj_property>
+      <obj_property name="ObjectShortName">adc_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/adc_cmp" type="logic">
+      <obj_property name="ElementShortName">adc_cmp</obj_property>
+      <obj_property name="ObjectShortName">adc_cmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/adc_ch" type="array">
+      <obj_property name="ElementShortName">adc_ch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_ch[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/adc_dac" type="array">
+      <obj_property name="ElementShortName">adc_dac[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_dac[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/pwm_out" type="logic">
+      <obj_property name="ElementShortName">pwm_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/gpio_wr" type="logic">
+      <obj_property name="ElementShortName">gpio_wr</obj_property>
+      <obj_property name="ObjectShortName">gpio_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/gpio_out" type="array">
+      <obj_property name="ElementShortName">gpio_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/done_flag" type="array">
+      <obj_property name="ElementShortName">done_flag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">done_flag[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/tmr_cnt" type="array">
+      <obj_property name="ElementShortName">tmr_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tmr_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/tmr_ovf" type="logic">
+      <obj_property name="ElementShortName">tmr_ovf</obj_property>
+      <obj_property name="ObjectShortName">tmr_ovf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/cycle_cnt" type="array">
+      <obj_property name="ElementShortName">cycle_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/instr_cnt" type="array">
+      <obj_property name="ElementShortName">instr_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/err_cnt" type="array">
+      <obj_property name="ElementShortName">err_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/smp_cnt" type="array">
+      <obj_property name="ElementShortName">smp_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">smp_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/diff" type="array">
+      <obj_property name="ElementShortName">diff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">diff[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc8_soc/exp_code" type="array">
+      <obj_property name="ElementShortName">exp_code[7:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_code[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
